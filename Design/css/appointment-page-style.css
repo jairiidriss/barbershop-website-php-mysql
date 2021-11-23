@@ -1,0 +1,185 @@
+body
+{
+    background: #f7f7f7;
+}
+
+.text_header
+{
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.5;
+    margin-top: 22px;
+}
+
+.booking_section
+{
+    max-width: 720px;
+    margin: 50px auto;
+    /*min-height: 500px;*/
+}
+
+.items_tab
+{
+    border-radius: 4px;
+    background-color: white;
+    overflow: hidden;
+    box-shadow: 0 0 5px 0 rgba(60, 66, 87, 0.04), 0 0 10px 0 rgba(0, 0, 0, 0.04);
+}
+
+.itemListElement
+{
+    font-size: 14px;
+    line-height: 1.29;
+    border-bottom: solid 1px #e5e5e5;
+    cursor: pointer;
+    padding: 16px 12px 18px 12px;
+}
+
+.item_details
+{
+    width: auto;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+}
+
+.servide_name
+{
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: normal;
+    padding-right: 15px;
+    color: #979797;
+    -webkit-flex: 1;
+}
+
+.item_label
+{
+    color: #9e8a78;
+    border-color: #9e8a78;
+    background: white;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.btn-secondary:not(:disabled):not(.disabled).active, .btn-secondary:not(:disabled):not(.disabled):active 
+{
+    color: #fff;
+    background-color: #9e8a78;
+    border-color: #9e8a78;
+}
+
+.item_select_part
+{
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.select_item_bttn
+{
+    width: 55px;
+    display: flex;
+    margin-left: 30px;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+}
+
+.service_duration_field
+{
+    text-align: right;
+    min-width: 60px;
+    width: auto;
+    color: rgb(151, 151, 151);
+    line-height: 1.29;
+    font-size: 14px;
+}
+
+.service_price_field
+{
+    width: auto;
+    display: flex;
+    margin-left: 30px;
+    -webkit-box-align: baseline;
+    align-items: baseline;
+}
+
+.radio_employee_select
+{
+    position: absolute;
+    clip: rect(0,0,0,0);
+    pointer-events: none;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step 
+{
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;  
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+}
+
+.step.active 
+{
+    opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish 
+{
+    background-color: #4CAF50;
+}
+
+.next_prev_buttons
+{
+    background-color: #4CAF50;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.tab_reservation
+{
+    display: none;
+}
+
+.client_details_div .form-control
+{
+    background-color: #fff;
+    border-radius: 0;
+    padding: 25px 10px;
+    box-shadow: none;
+    border: 2px solid #eee;
+    margin: 10px 0px;
+}
+
+.client_details_div .form-control:focus 
+{
+    border-color: #9e8a78;
+    box-shadow: none;
+    outline: none;
+}

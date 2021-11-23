@@ -1,0 +1,60 @@
+@media (max-width: 992px)
+{
+    .padd_col_res
+	{
+    	padding: 15px;
+	}
+
+	.about_section .about_img_2 
+	{
+    	margin: -90px 0 0 150px;
+	}
+
+	.about_section .about_img_3 
+	{
+    	margin: -175px 0 0 31px;
+	}
+
+	
+}
+
+@media (max-width: 767px)
+{
+	.book_bg, .about_img
+	{
+    	display: none;
+	}
+
+	#home-section-carousel .carousel-caption
+	{
+		bottom: 0px !important;
+	}
+
+	#home-section-carousel .carousel-indicators
+	{
+		bottom: 0px !important;
+	}
+
+	#home-section-carousel .carousel-caption h3
+	{
+		font-size: 15px;
+	}
+
+	#home-section-carousel .carousel-caption p
+	{
+		font-size: 10px;
+	}
+}
+
+@media (max-width: 1230px)
+{
+	.main-menu-container 
+    {
+    	display: none!important;
+    }
+
+    a.mob-menu-toggle 
+    {
+     	display: block !important;
+	}
+}
