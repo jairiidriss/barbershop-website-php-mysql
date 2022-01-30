@@ -68,6 +68,8 @@
 						$stmtClient = $con->prepare("insert into clients(first_name,last_name,phone_number,client_email) 
 									values(?,?,?,?)");
 						$stmtClient->execute(array($client_first_name,$client_last_name,$client_phone_number,$client_email));
+						
+						$client_id = $con->lastInsertId();
 					}
 
 
