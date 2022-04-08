@@ -168,7 +168,7 @@
                             $secs = strtotime($sum_duration)-strtotime("00:00:00");
                             $result = date("H:i:s",strtotime($start)+$secs);
 
-                            $day_id = date('w',strtotime($appointment_date));
+                            $day_id = date('N',strtotime($appointment_date));
                             
                             while($start >= $open_time && $result <= $close_time)
                             {
