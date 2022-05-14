@@ -1,5 +1,6 @@
 <h1>Barbershop Website | Barbershop Management website using PHP & MYSQL</h1>
 <h2>Make online reservations and manage your barbershop</h2>
+<p>Barbershop website from scratch using PHP and MySql, Manage the barbershop appointmetns, employees, services, ...etc</p>
 <hr>
 <div>
 	<h3>Technologies</h3>
