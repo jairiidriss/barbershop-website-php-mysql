@@ -16,7 +16,7 @@
 <div>
 	<h3>Website Demo</h3>
   	<ul>
-		<li>https://www.youtube.com/watch?v=LodPUnaHMjU&ab_channel=IdrissJairi</li>
+		<li>https://www.youtube.com/watch?v=0_BIVwIHcZM&ab_channel=IdrissJairi </li>
 		<li>Admin Login Page: http://localhost/BarbershopWebsite/barber-admin/</li>
 	</ul>
 	<p>
