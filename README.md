@@ -20,7 +20,7 @@
 		<li>Admin Login Page: http://localhost/BarbershopWebsite/barber-admin/</li>
 	</ul>
 	<p>
-		Username: jairiidriss
+		Username: admin
 		<br>
 		Password: 123456789
 	</p>
